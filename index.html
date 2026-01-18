@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosso Café | Coffe Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu" />
+</head>
+<body>
+    <header>
+        <div class="logo"></div>
+        <ul>
+            <li>Menu</li>
+            <li>Nosso Cafe</li>
+            <li>Impacto Social</li>
+        </ul>
+        <span class="material-symbols-outlined" id="menu-hamb">menu</span>
+    </header>
+
+    <main>
+        <section class="sec1">
+        <picture>
+            <source srcset="imgs/cafe-1-p.jpg" media="(min-width: 1000px)" >
+            <source srcset="imgs/cafe-1.jpg" media="(min-width: 620px)" >
+            <img src="imgs/cafe-1.jpg" alt="Banner do site" width="100%" height="100%">
+        </picture>
+
+            <div class="descricao1">
+                <h1>Explore nossos <br>cafés</h1>
+                <p class="desc1">Independente do seu gosto ou paladar,<br>encontrará um café CoffeShop® perfeito para<br> você.</p>
+                <button>SAIBA MAIS</button>
+            </div>
+        </section>
+
+        <div class="botoes">
+            <button class="btn1" id="btn-especialidades-formato"><img src="imgs/icons/icon-grao.png" alt="" width="75px">Formato</button>
+            <button class="btn2" id="btn-especialidades-torra"><img src="imgs/icons/icon-capsula.png" alt="" width="70px">Torra</button>
+        </div>
+        <section class="sec2" id="menuFormato">
+            <div class="produtos"><img src="imgs/icons/icon-grao.png" alt="" width="75px">GRÃO INTEIRO</div>
+            <div class="produtos"><img src="imgs/icons/icon-colher.png" alt="">MOÍDO</div>
+            <div class="produtos"><img src="imgs/icons/icon-gelado.png" alt="" width="75px">CAFÉS GELADOS</div>
+            <div class="produtos"><img src="imgs/icons/icon-capsula.png" alt="">COFFESHOP® BY NESPRESSO</div>
+        </section>
+
+        <section class="produtos-torra" id="menuTorra">
+            <div class="produtos"><img src="imgs/icons/torra-fraca.png" alt="" width="75px">TORRA CLARA</div>
+            <div class="produtos"><img src="imgs/icons/torra-media.png" alt="" width="75px">TORRA MÉDIA</div>
+            <div class="produtos"><img src="imgs/icons/torra-escura.png" alt="" width="75px">TORRA ESCURA</div>
+            <div class="produtos"><img src="imgs/icons/descafeinado.png" alt="" width="75px">CAFÉS COM SABORES</div>
+        </section>
+
+         <section class="sec3">
+            <picture>
+                <source srcset="imgs/preparar-cafe-p.jpg" media="(min-width: 1000px)"width="450px" >
+                <source srcset="imgs/preparar-cafe.jpg" media="(min-width: 620px)" >
+                <img src="imgs/preparar-cafe.jpg" alt="Banner do site" width="100%" >
+            </picture>
+            <div class="descricao3">
+                <h3>Como preparar o café em casa</h3>
+                <p>Do estudo básico de preparo ao <br>aperfeiçoamento dos detalhes,<br>aprenda como ser um barista de <br>casa.</p>
+                <button>SAIBA MAIS</button>
+            </div>
+        </section>
+
+        <section class="sec4">
+            <picture>
+                <source srcset="imgs/torra-cafe.jpg" media="(min-width: 1000px)" width="450px">
+                <source srcset="imgs/torra-cafe.jpg" media="(min-width: 620px)" >
+                <img src="imgs/torra-cafe.jpg" alt="Banner do site" width="100%" >
+            </picture>
+            <div class="descricao4">
+                <h3>Como descobrir a torra perfeita para <br>você</h3>
+                <button>SAIBA MAIS</button>
+            </div>
+            </section>
+
+        <footer>
+            <h1>PROJETO EDUCATIVO</h1>
+        </footer>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
